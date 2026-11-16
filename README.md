@@ -202,15 +202,19 @@ PASS: PWM high for 30 of 100 clocks
 
 The design uses less than 1% of the device, and no BRAM, URAM or DSP blocks.
 
-| Elaborated schematic | Synthesized schematic |
-|---|---|
-| <img width="1917" height="945" alt="Schematic" src="https://github.com/user-attachments/assets/02e829a2-8a7c-4c05-8f45-901f1ea88837" />
+| Elaborated schematic | 
+|---|
+| <img width="1917" height="945" alt="Schematic" src="https://github.com/user-attachments/assets/02e829a2-8a7c-4c05-8f45-901f1ea88837" />|
+| Synthesized schematic |
+|---|
  | <img width="1917" height="946" alt="Synthesized_Design" src="https://github.com/user-attachments/assets/4130a479-3b3f-46b9-bf49-820fc2b1a5de" />
  |
 
-| Project sources | Utilization report |
-|---|---|
+| Project sources |
+|---|
 |<img width="1917" height="980" alt="Project_Sources" src="https://github.com/user-attachments/assets/0deacc96-d33a-4821-885e-98ad5eeb63ca" />
+| Utilization report |
+|---|
 | <img width="1917" height="940" alt="Report_Utilization" src="https://github.com/user-attachments/assets/585db173-b4d2-47d7-b431-778d532cc52c" />
 |
 
