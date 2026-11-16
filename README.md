@@ -2,14 +2,7 @@
 
 A small System-on-Chip written in Verilog. An **8-bit RISC CPU with a 5-stage pipeline** controls a **timer / PWM** and a **4-channel 8-bit SAR ADC** through a memory-mapped I/O page. The design is verified with a self-checking testbench (22 checks) and synthesized with Xilinx Vivado.
 
-| | |
-|---|---|
-| **Author** | Lam Duy Loc |
-| **Student ID** | SE190907 |
-| **Language** | Verilog-2001 |
-| **Tool** | Xilinx Vivado (simulation and synthesis) |
-| **Target device** | `xc7vx485tffg1157-1` (Virtex-7) |
-| **Top module** | `risc8_soc` |
+
 
 ## Features
 
@@ -192,7 +185,9 @@ PASS: PWM high for 30 of 100 clocks
 
 | Waveform | Tcl console |
 |---|---|
-| ![Waveform](Screenshots/F2_Waveform/waveform.png) | ![Tcl console](Screenshots/F3_Tcl_Console/Tcl_Console.png) |
+|<img width="1917" height="936" alt="waveform" src="https://github.com/user-attachments/assets/c52d1beb-578b-4caf-b99a-c2d46c176956" />
+ | <img width="1917" height="937" alt="Tcl_Console" src="https://github.com/user-attachments/assets/24d069b9-b7f6-4760-a3e0-adad1c097d80" />
+ |
 
 ## Synthesis results (Vivado, `xc7vx485tffg1157-1`)
 
@@ -208,11 +203,15 @@ The design uses less than 1% of the device, and no BRAM, URAM or DSP blocks.
 
 | Elaborated schematic | Synthesized schematic |
 |---|---|
-| ![Elaborated](Screenshots/F4_Elaborated_Schematic/Schematic.png) | ![Synthesized](Screenshots/F5_Synthesized_Schematic/Synthesized_Design.png) |
+| <img width="1917" height="945" alt="Schematic" src="https://github.com/user-attachments/assets/02e829a2-8a7c-4c05-8f45-901f1ea88837" />
+ | <img width="1917" height="946" alt="Synthesized_Design" src="https://github.com/user-attachments/assets/4130a479-3b3f-46b9-bf49-820fc2b1a5de" />
+ |
 
 | Project sources | Utilization report |
 |---|---|
-| ![Sources](Screenshots/F1_Project_Sources/Project_Sources.png) | ![Utilization](Screenshots/F6_Report_Utilization/Report_Utilization.png) |
+|<img width="1917" height="980" alt="Project_Sources" src="https://github.com/user-attachments/assets/0deacc96-d33a-4821-885e-98ad5eeb63ca" />
+| <img width="1917" height="940" alt="Report_Utilization" src="https://github.com/user-attachments/assets/585db173-b4d2-47d7-b431-778d532cc52c" />
+|
 
 ## How to run
 
@@ -243,6 +242,9 @@ The testbench also writes `io_trace.csv` (cycle, PC, I/O address, data) in the s
 - Build a UVM testbench with random input voltages, a scoreboard and functional coverage
 - Try higher ADC resolution (10 or 12 bits)
 
-## Author
-
-**Lam Duy Loc** - SE190907
+## 👨‍💻 Author
+- **Name:** Lam Duy Loc
+- **Student ID:** SE190907
+- **Specialization:** Semiconductor & Integrated Circuit Design — FPT University
+- GitHub: https://github.com/LocLam134
+- Email: loc.slh11357@gmail.com
