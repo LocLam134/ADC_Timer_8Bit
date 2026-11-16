@@ -183,9 +183,12 @@ PASS: PWM high for 30 of 100 clocks
 *** SOC TEST PASSED *** (22 checks)
 ```
 
-| Waveform | Tcl console |
-|---|---|
-|<img width="1917" height="936" alt="waveform" src="https://github.com/user-attachments/assets/c52d1beb-578b-4caf-b99a-c2d46c176956" />| <img width="1917" height="937" alt="Tcl_Console" src="https://github.com/user-attachments/assets/24d069b9-b7f6-4760-a3e0-adad1c097d80" />|
+| Waveform | 
+|---|
+|<img width="1917" height="936" alt="waveform" src="https://github.com/user-attachments/assets/c52d1beb-578b-4caf-b99a-c2d46c176956" /> |
+| Tcl console |
+|---|
+| <img width="1917" height="937" alt="Tcl_Console" src="https://github.com/user-attachments/assets/24d069b9-b7f6-4760-a3e0-adad1c097d80" />|
 
 ## Synthesis results (Vivado, `xc7vx485tffg1157-1`)
 
